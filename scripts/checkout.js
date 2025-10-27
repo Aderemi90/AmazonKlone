@@ -11,7 +11,6 @@ import { renderCheckHeader } from './checkout/checkoutHeader.js';
 //NOTE: The loadCart function was not created but i called it severally
 // for learning purposes. loadCart is fetching the cart using fetch('example.com')
 
-
 //WE seperated our checkout into two sections because adding the payment aspect will make it cumbersome.
 //1. OrderSummary to cater for the order. e.g The renderOrderSummary is rendered here 
 //2. PaymentSummary to cater for the payment aspect.
@@ -34,7 +33,6 @@ The below is also a callback, its a function inside another function
 // The below promise resolves the products before it renders the pages. Note that loadProducts is an 
 // Asynchronous function that waits for none, so it resolves first then load other pages
 // we use resolve to wait for each step to finish before we move to the next step//
-
 
     renderOrderSummary();
     renderPaymentSummary();
@@ -68,7 +66,6 @@ The below is also a callback, its a function inside another function
 //   renderCheckHeader();
 // });
 
-
 // new Promise((resolve, reject) => {
 //   loadProductsFetch()
 //     .then(() => resolve('value1'))
@@ -100,7 +97,6 @@ new Promise((resolve)=>{
     renderCheckHeader();
 });
 */
-
 
 /* 
 Advantages of promises(Continuation from Above)

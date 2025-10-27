@@ -298,3 +298,4 @@ export function renderOrderSummary(){
 // checkout.js and generating all the html from it
 // 3. Controller: This runs some code when we interact with the page. e.g Event listeners in the code./
 // MVC ensures the page matches the data. MVC is known as a design pattern. it organises and design our code
+
