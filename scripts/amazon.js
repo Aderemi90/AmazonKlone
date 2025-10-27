@@ -262,6 +262,7 @@ let productHTML ='';
             
             // const productId = button.dataset.productId;
             const {productId} = button.dataset
+            console.log(productId)
                 
             addToCart(productId)
             activateCheckMark()
